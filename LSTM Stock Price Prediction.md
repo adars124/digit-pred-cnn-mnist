@@ -1,0 +1,16 @@
+- Load the data
+- Describe the data (Perform EDA)
+- Preprocess the data (Handling duplicates, (outliers: optional), calculation of technical indicators and missing values)
+- Data visualization (Stock Trend Visualization - Time Series Plot)
+- Identify correlated features
+- Data Normalization and Scaling (For this project, use min-max-scaler)
+- Sequence Generation (specify lag value - backcandels)
+- Split the dataset into train and test set (.80 of train and rest is test set)
+- Model Architecture Creation (Build the LSTM model)
+- Add early stopping mechanism to avoid overfitting (gradient explosion and vanishing problem)
+- Predict values using the test data and developed model
+- Evaluate the model using metrics like: root mean squared error, mean squared errors, absolute mean error, accuracy_score, and so on...
+- Visualize the test and validation losses over time (if any spikes are observed, tweak the values)
+- Export the model using `joblib` or `pickel`
+- Deploy the model in a web app using either Flask or FastAPI.
+- Demonstrate in the class
